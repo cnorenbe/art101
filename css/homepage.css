@@ -1,5 +1,6 @@
 /* this css file will only style the homepage of our site */
 
-#my-portrait {
-  width: 200px;
+.my-portrait {
+  margin: 10px;
+  max-width: 500px;
 }
