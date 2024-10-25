@@ -1,21 +1,21 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+/**
+ * Author: Coralie Norenberg
+ * Created:   10.21.2024
+ * License: Public Domain
+ **/
 
-// Constants
+// Define Variables
+make = "Toyota";
+model = "4Runner";
+color = "white"
+year = "1999"
 
-// Functions
+// calculate
+age = 2024 - year;
 
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
-}
-
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
-
-// let's get this party started
-main();
+// output
+document.writeIn("Make: " + make + "<br>");
+document.writeIn("Model: " + model + "<br>");
+document.writeIn("Color: " + color + "<br>");
+document.writeIn("Year: " + year + "<br>");
+document.writeIn("Age: " + age + "<br>");
