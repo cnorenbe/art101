@@ -3,7 +3,7 @@
 
 function main() {
   console.log("Main function started.");
-  
+
 function sortUserName() {
   var userName = window.prompt("hiii! ppls tell me your name so i can fix it!")
   console.log("userName =", userName);
@@ -17,6 +17,7 @@ function sortUserName() {
   var nameSorted = nameArraySort.join('');
   console.log("nameSorted =", nameSorted);
   return nameSorted;
+} 
 }
 
 // output
