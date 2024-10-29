@@ -1,7 +1,9 @@
 // Author: Coralie Norenberg <cnorenbe@ucsc.edu>
 // Date: October 28
 
-
+function main() {
+  console.log("Main function started.");
+  
 function sortUserName() {
   var userName = window.prompt("hiii! ppls tell me your name so i can fix it!")
   console.log("userName =", userName);
