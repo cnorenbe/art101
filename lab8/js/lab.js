@@ -1,5 +1,7 @@
-// Author: Coralie Norenberg <cnorenbe@ucsc.edu>
-// Date: October 31
+/*
+* Author: Coralie Norenberg <cnorenbe@ucsc.edu>
+* Date: October 31
+*/
 
 //
 let numbers = [4, 9, 16, 25, 36];
