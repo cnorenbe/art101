@@ -10,3 +10,18 @@
   text-align: center;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
 }
+.section-btn {
+  background-color: #403eae; 
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.section-btn:hover {
+  background-color: #262b7b; 
+}

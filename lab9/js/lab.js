@@ -8,12 +8,16 @@
 */
 
 $(document).ready(function() {
-  // Append a button to the Challenge section
-  $('#challenge').append('<button class="section-btn">Start Challenge</button>');
+    
+  $("#button-challenge").click(function() {
+      $("#challenge").toggleClass("special");
+  });
   
-  // Append a button to the Problems section
-  $('#problems').append('<button class="section-btn">View Problems</button>');
+  $("#button-problems").click(function() {
+      $("#problems").toggleClass("special");
+  });
   
-  // Append a button to the Results section
-  $('#results').append('<button class="section-btn">View Results</button>');
+  $("#button-results").click(function() {
+      $("#results").toggleClass("special");
+  });
 });
