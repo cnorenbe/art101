@@ -1,5 +1,5 @@
 /*
-   lab.js - This simple JavaScript/jQuery script uses buttons to modify some elements on the page
+   lab.js - This simple JavaScript/jQuery script gets a value from an input field and outputs a modified version.
 
    Author: Coralie Norenberg
    Date: November 2024
@@ -16,11 +16,10 @@ function generateRandomColor() {
   }
   
   // Click listener for the "make-color" button
-  $("#make-color").click(function() {
-    // Get a new random color
-    const newColor = generateRandomColor();
-  
-    // Append a new div to the output div with a background color of the random color
-    $("#output").append('<div class="color-box" style="background-color: ' + newColor + ';"></div>');
-  });
-  
+$("#make-color").click(function() {
+  // Get a new random color
+  const newColor = generateRandomColor();
+
+  // Append a new div to the output div with a background color of the random color
+  $("#output").append('<div class="color-box" style="background-color: ' + newColor + ';"></div>');
+});
