@@ -3,23 +3,32 @@
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 /* General resets and basic styles */
 /* General styling for the output container */
+/* General styling for the output container */
 #output {
+  display: grid;                  /* Use grid layout */
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Automatically adjust columns */
+  grid-gap: 15px;                  /* Space between grid items */
   font-family: Arial, sans-serif;
   margin: 20px;
   padding: 10px;
   border: 2px solid #ccc;
   border-radius: 10px;
   background-color: #f9f9f9;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Base styling for each paragraph */
 #output p {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.5;
-  margin: 5px 0;
+  margin: 0;                      /* Remove default margin */
   padding: 10px;
   border-radius: 5px;
   text-align: center;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for each item */
 }
 
 /* Styling for 'Fizz' (multiples of 3) */
