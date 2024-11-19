@@ -1,0 +1,85 @@
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+/* General resets and basic styles */
+/* Basic body styling */
+body {
+  font-family: Arial, sans-serif; /* Set a clean, easy-to-read font */
+  background-color: #f4f4f9; /* Light background for a soft look */
+  color: #333; /* Dark text for readability */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Container for the output */
+#output {
+  width: 80%;
+  max-width: 800px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff; /* White background for contrast */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow to lift it off the page */
+  border-radius: 8px; /* Rounded corners for a smooth appearance */
+  text-align: center;
+}
+
+/* Paragraph styling for each number or result */
+#output p {
+  font-size: 1.2em;
+  margin: 8px 0;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+/* Specific styles for Fizz, Buzz, and Boom */
+.fizz {
+  color: #ff6347; /* Fizz in tomato red */
+  font-weight: bold;
+}
+
+.buzz {
+  color: #1e90ff; /* Buzz in dodger blue */
+  font-weight: bold;
+}
+
+.boom {
+  color: #32cd32; /* Boom in lime green */
+  font-weight: bold;
+}
+
+/* Combination styles */
+.fizzbuzz {
+  color: #ff6347; /* Red for Fizz */
+  background-color: #1e90ff; /* Blue for Buzz */
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.fizzboom {
+  color: #ff6347; /* Red for Fizz */
+  background-color: #32cd32; /* Green for Boom */
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.buzzboom {
+  color: #1e90ff; /* Blue for Buzz */
+  background-color: #32cd32; /* Green for Boom */
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.fizzbuzzboom {
+  color: #fff; /* White text */
+  background-color: #ff6347; /* Red for Fizz */
+  border-radius: 4px;
+  padding: 5px;
+  font-weight: bold;
+}
