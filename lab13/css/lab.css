@@ -1,8 +1,3 @@
-/* Here we can set styles for this lab page that we don't want to effect others pages */
-
-/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
-/* General resets and basic styles */
-/* General styling for the output container */
 /* General styling for the output container */
 #output {
   display: grid;                  /* Use grid layout */
@@ -31,51 +26,23 @@
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for each item */
 }
 
-/* Styling for 'Fizz' (multiples of 3) */
+/* Example styling for 'Fizz' */
 .fizz {
   background-color: #ffcccb;  /* Light red */
   color: #b20000;  /* Dark red */
   font-weight: bold;
 }
 
-/* Styling for 'Buzz' (multiples of 5) */
+/* Styling for 'Buzz' */
 .buzz {
   background-color: #cce5ff;  /* Light blue */
   color: #0066cc;  /* Blue */
   font-weight: bold;
 }
 
-/* Styling for 'Boom' (multiples of 7) */
+/* Styling for 'Boom' */
 .boom {
   background-color: #ffffcc;  /* Light yellow */
   color: #cccc00;  /* Dark yellow */
-  font-weight: bold;
-}
-
-/* Styling for 'FizzBuzz' (multiples of both 3 and 5) */
-.fizzbuzz {
-  background-color: #ffcc66;  /* Light orange */
-  color: #cc6600;  /* Dark orange */
-  font-weight: bold;
-}
-
-/* Styling for 'FizzBoom' (multiples of both 3 and 7) */
-.fizzboom {
-  background-color: #d9f2d9;  /* Light green */
-  color: #339933;  /* Green */
-  font-weight: bold;
-}
-
-/* Styling for 'BuzzBoom' (multiples of both 5 and 7) */
-.buzzboom {
-  background-color: #ffeb99;  /* Light yellow */
-  color: #cc6600;  /* Dark orange */
-  font-weight: bold;
-}
-
-/* Styling for 'FizzBuzzBoom' (multiples of 3, 5, and 7) */
-.fizzbuzzboom {
-  background-color: #ff99ff;  /* Light pink */
-  color: #9900cc;  /* Dark purple */
   font-weight: bold;
 }
