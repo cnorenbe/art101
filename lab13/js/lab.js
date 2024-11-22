@@ -25,8 +25,11 @@ function runFizzBuzz() {
             output = num;
         }
 
-        // Append the result as a paragraph with a dynamic class for styling
-        outputStr += `<p class="${output.toLowerCase()}">${output}</p>`;
+        // Dynamically create a class for each result (e.g., 'fizz', 'buzz', 'boom', etc.)
+        const className = output.toString().toLowerCase().replace(/\s+/g, '').trim();
+
+        // Append the result as a div (not a paragraph) with a dynamic class for styling
+        outputStr += `<div class="grid-item ${className}">${output}</div>`;
     }
 
     // Output the result into the #output div
