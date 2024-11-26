@@ -1,0 +1,48 @@
+/* General styling for the output container */
+#output {
+  display: grid;                  /* Use grid layout */
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Automatically adjust columns */
+  grid-gap: 15px;                  /* Space between grid items */
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Base styling for each paragraph */
+#output p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;                      /* Remove default margin */
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for each item */
+}
+
+/* Example styling for 'Fizz' */
+.fizz {
+  background-color: #ffcccb;  /* Light red */
+  color: #b20000;  /* Dark red */
+  font-weight: bold;
+}
+
+/* Styling for 'Buzz' */
+.buzz {
+  background-color: #cce5ff;  /* Light blue */
+  color: #0066cc;  /* Blue */
+  font-weight: bold;
+}
+
+/* Styling for 'Boom' */
+.boom {
+  background-color: #ffffcc;  /* Light yellow */
+  color: #cccc00;  /* Dark yellow */
+  font-weight: bold;
+}
