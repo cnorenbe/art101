@@ -1,7 +1,7 @@
-// lab16.js
 /*
-    This script fetches a random comic from the XKCD API and displays it on the page.
-    It uses jQuery to make an AJAX request to the XKCD JSON API and updates the DOM.
+    Lab: JSON and APIs
+    Author: Coralie Norenberg
+    Date: November 2024
 */
 
 // Using the core $.ajax() method
